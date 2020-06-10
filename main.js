@@ -2,7 +2,32 @@
  * Your code here!
  ******************************************************************************/
 
+function getInitials(){
+  
+  const firstName= getInput(0)
+  const lastName= getInput(1)
+  const message = firstName[0]+ "."+ lastName[0]+".";
+  
+  // const secondInitial = firstInitials[firstInitials.indexOf(" ")+1]
+  console.log(message);
+}
+getInitials()
 
+function getStringLength(){
+  const firstName= getInput(0)
+  const lastName= getInput(1)
+  const message = firstName.length + lastName.length;
+  console.log(message)
+  
+}
+getStringLength()
+// function getInitials(){
+//   let string= ""
+//   let firstInitials= string[0]
+//   let secondInitial= string[string.indexOf(' ') +1]
+//   return firstInitials+ secondInitial
+// }
+// console.log(getInitials("Jumi Sanchez"))
 
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
